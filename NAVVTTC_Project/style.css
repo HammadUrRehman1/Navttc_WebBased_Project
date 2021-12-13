@@ -1,0 +1,464 @@
+body {
+    margin: 0px;
+}
+
+@media (device-width: 100vw) and (device-height: 100vh) {
+    .content {
+        padding: 0px !important;
+    }
+}
+
+.header {
+    width: 100%;
+    height: 55px;
+    background-image: radial-gradient(100% 100% at 100% 0, #2ba0ff 0, #14386e 100%);
+    margin-top: -15px;
+}
+
+#headertext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: cambria;
+}
+
+#searchlogo {
+    margin-left: 90px;
+    margin-top: 19px;
+}
+
+#logo {
+    margin-left: 30px;
+    text-decoration: none;
+    width: 230px;
+    height: 50px;
+    margin: 0px;
+    margin-top: -20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#fblogo {
+    width: 12px;
+    height: 22px;
+    margin-left: 54em;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+#twitterlogo {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+#ytlogo {
+    width: 27px;
+    height: 27px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+li {
+    margin-right: 32px;
+    display: inline;
+}
+
+#slide {
+    width: 100%;
+}
+
+.mySlides {
+    display: none
+}
+
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -18px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+.heading {
+    font-size: 1.5em;
+    color: #222222;
+    font-family: cambria !important;
+}
+
+.button-29 {
+    margin-top: 22px;
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #1dbbe2 0, #3e75ee 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: cambria;
+    height: 41px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 14px;
+    padding-right: 14px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.button-29:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-29:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.tn1 {
+    width: 10%;
+    border: 3px solid #1462a7;
+    color: white;
+    background-color: #1462a7;
+    text-align: center;
+    font-family: cambria;
+    font-size: 18px;
+}
+
+.tn2 {
+    border: 3px solid #1462a7;
+    font-family: cambria;
+    font-size: large;
+    font-weight: bold;
+}
+
+.tbl {
+    display: inline;
+    margin-left: 120px;
+    margin-right: 2px;
+}
+
+.tbl1 {
+    display: inline;
+    margin-left: 243px;
+}
+
+.tbl2 {
+    display: inline;
+    margin-left: 196px;
+    margin-right: 2px;
+}
+
+.tbl-tn {
+    border-collapse: collapse;
+    margin-top: 100px;
+    width: 100%;
+}
+
+/* Card-Layout */
+
+.layout-stl {
+    margin-left: 230px;
+    margin-top: 60px;
+}
+
+
+.layout-stl1 {
+    margin-left: 230px;
+    margin-top: 10px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    color: white;
+    float: left;
+    border-radius: 15px;
+    border: 8px solid #e2e2e2;
+    padding: 20px 20px 0px 20px;
+    width: 300px;
+    height: 250px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.img-set {
+    width: 60px;
+    height: 60px;
+    margin-left: 85px;
+}
+
+
+h1 {
+    font-size: 22px;
+    font-family: Cambria;
+    text-align: center;
+}
+
+.txt-set {
+    font-size: 20px;
+    font-family: Cambria;
+    text-align: center;
+}
+
+
+.signup-form {
+    align-items: center;
+    font-family: Cambria;
+    width: 650px;
+    margin: 30px auto;
+    background: linear-gradient(to right, #ffffff 0%, #fafafa 50%, #ffffff 99%);
+    border-radius: 10px;
+}
+
+.form-header {
+    background-image: radial-gradient(100% 100% at 100% 0, #3aaaa4 0, #236edd 100%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.form-header h1 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+/* Form Body */
+.form-body {
+    padding: 10px 40px;
+    color: #666;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-body .label-title {
+    color: #588dff;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.form-body .form-input {
+    font-size: 17px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #5c5c5c;
+    text-align: left;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: white;
+    outline: none;
+}
+
+.horizontal-group .left {
+    float: left;
+    width: 49%;
+}
+
+.horizontal-group .right {
+    float: right;
+    width: 49%;
+}
+
+input[type="file"] {
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#range-label {
+    width: 15%;
+    padding: 5px;
+    background-color: #1b53ba;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    position: relative;
+    top: -8px;
+}
+
+::-webkit-input-placeholder {
+    color: #d9d9d9;
+}
+
+/*---------------------------------------*/
+/* Form Footer */
+/* --------------------------------------- */
+/* .signup-form .form-footer {
+    background-image: radial-gradient(100% 100% at 100% 0, #3aaaa4 0, #236edd 100%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 40px;
+    text-align: right;
+    border-top: 1px solid #cccccc;
+    clear: both;
+} */
+
+.btn {
+    margin-left: 45%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1b53ba;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    color: #e2e2e2;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #166b9c;
+    color: white;
+}
+
+.about {
+    font-weight: 520;
+    margin-left: 75px;
+    font-size: 18px;
+    line-height: 1.4em;
+    color: rgb(116, 116, 116);
+    text-align: justify;
+    margin-right: 105px;
+}
+
+.about-head {
+    margin-top: 20px;
+    font-size: xx-large;
+    color: rgb(51, 51, 51);
+}
+
+.container {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+img {
+    max-width: 100%
+}
+
+.image {
+    flex-basis: 60%
+}
+
+.text {
+    font-size: 20px;
+}
